@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01documentReady.html</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery("h1").css("color", "green");
+        });
+
+
+        //$((document).ready(function () {
+        //    jQuery("h1").css("color", "blue");
+        //}));
+
+    </script>
+
+    <script>
+        //ready是一個事件，等到DOMTree產生後會執行這個事件
+    </script>
+</head>
+<body>
+    <h1>write less,do more</h1>
+    <script>
+        console.log(jQuery("h1").css("color", "green"));
+        console.log(jQuery("h1").css("color"));
+    </script>
+    <!--<script src="../js/jquery-3.6.0.min.js"></script>
+    <!--https://jquery.com/download/-->
+    <!--<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>-->
+    <!--https://releases.jquery.com/-->
+    <!--<script>
+        jQuery("h1").css("color", "green");
+                        //$("h1").css("color", "blue");
+    </script>-->
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02chain.html</title>    
+</head>
+<body>
+    <h1>write less, do more1</h1>
+    <h1>write less, do more2</h1>
+    <h1>write less, do more3</h1>
+    <h1>write less, do more4</h1>
+    <h1>write less, do more5</h1>     
+    
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <script>
+        $(document).ready(function () {
+        //    console.log("h1");
+        //   $("h1").css("color","green");
+        //    $("h1").mouseover(function () {
+        //        //console.log(this);//javascrip 物件
+        //        //console.log($(this));//jquery 物件
+        //        //console.log($(this)[0]);//
+        //        $(this).css("color", "red");
+        //   });
+        //   $("h1").mouseout(function(){
+        //       $(this).css("color","green");
+        //   });        
+
+
+        //函式
+        //function over() {
+        //    $(this).css("color", "blue");
+        //};
+        //function out() {
+        //    $(this).css("color", "green");
+        //};
+        //$("h1").css("color","green").mouseover(over).mouseout(out);
+
+
+        //匿名
+        //$("h1").css("color", "green").mouseover(function () {
+        //    $(this).css("color", "blue");
+        //}).mouseout(function () {
+        //    $(this).css("color", "green");
+
+        //箭頭
+        let over = () => {
+            $(event.currentTarget).css("color", "blue");
+        };
+        let out = () => {
+            $(event.currentTarget).css("color", "green");
+        };
+        $("h1").css("color", "green").mouseover(over).mouseout(out);
+        });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1 id="h1">this is heading1 </h1>
+    <h1 id="h2" onclick="f1()">this is heading2 </h1>
+    <h1 id="h3">this is heading3 </h1>
+    <h1 id="h4">this is heading4 </h1>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>
+        let JSObj = document.getElementById("h");  //元素
+        JSObj = document.querySelector("h1");
+        JSObj = document.querySelector("#h");
+        JSObj = document.querySelectorAll("h1");  //多個物件(元素) NodeList
+        console.log(JSObj)
+        console.log(JSObj[1])
+        JSObj = document.querySelectorAll("h1")[0];
+        console.log(JSObj);
+        console.log(JSObj.innerHTML);
+        console.log(JSObj.textContent);
+        //呼叫jQuery
+        //jQuery 語法  jQuery(selector).action()  method()
+        let JQObj = jQuery("h1");  ////多個物件(元素) jQuery物件
+        /*        JQObj = jQuery("#h");*/
+        console.log(JQObj);
+        console.log(JQObj.html());
+
+        //HTML
+        function f1() {
+            alert("f1");
+        }
+
+        //JS
+        document.querySelector("#h3").onclick=f2;
+        function f2() {
+            alert("f2");
+        }
+
+        //DOM
+        JSObj.addEventListener
+
+    </script>
+</body>
+</html>
