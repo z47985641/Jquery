@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1 id="h">this is heading1 </h1>
+    <h1 id="idh2" onclick="f1()">this is heading1 JS </h1>
+    <h1 id="m2" ">this is heading1 JS m2 </h1>
+    <h1 id="JQidm2">JQ m2</h1>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>
+        //取得物件
+        let JSObj = document.getElementById("h");  //元素
+        JSObj = document.querySelector("h1");
+        JSObj = document.querySelector("#h");
+        JSObj = document.querySelectorAll("h1");  //多個物件(元素) NodeList
+        console.log(JSObj)
+        JSObj = document.querySelectorAll("h1")[0];
+        console.log(JSObj)
+
+        //取得物件的內容
+        let JSObjVal = JSObj.innerHTML;  //解譯標籤
+        console.log(JSObjVal);
+        JSObjVal = JSObj.innerText;  //IE8 視為純文字
+        console.log(JSObjVal);
+        JSObjVal = JSObj.textContent;  //Firefox
+        console.log(JSObjVal);
+
+        //jQuery取得物件
+        //呼叫jQuery
+        //jQuery 語法  jQuery(selector).action()  method()
+        let JQObj = jQuery("h1");  ////多個物件(元素) jQuery物件
+        JQObj = jQuery("#h");
+        console.log(JQObj);
+        console.log(JQObj[0]);
+
+        //jQuery取得物件的內容
+        let JQObjVal = JQObj.html();
+        console.log(JQObjVal);
+        JQObjVal = JQObj.text();
+        console.log(JQObjVal);
+        //console.log($("#h").html())
+        //$("#h").click(function () {})
+
+        //JavaScript 事件
+        //1. HTML屬性事件處理程序
+        //<h1 id="idh2" onclick="f1()">this is heading1 </h1>
+        function f1() {
+            alert("JS method 1");
+        }
+        //2. JavaScript屬性事件處理程序
+        let JSObj2 = document.querySelector("#idh2")
+        console.log("=======");
+        console.log(JSObj2);
+
+        let m2 = document.querySelector("#m2");
+        m2.onclick = f2;  //binding
+        function f2() {
+            alert("method 2 ")
+        }
+        //3. w3c DOM 事件處理程序
+        JSObj.addEventListener("click", f3);
+        function f3() {
+
+        }
+
+        //jQuery 事件
+        //1. x
+        //2.
+        //let JQm2=$("#JQidm2")
+        //JQm2.click(JQf1);
+        //function JQf1() {  //函數宣告
+        //    alert("JQ f1")
+        //}
+
+        //匿名函數
+        $("#JQidm2").click(function () {
+            alert("匿名函數")
+        })
+
+//3. 不支援
+    </script>
+</body>
+</html>

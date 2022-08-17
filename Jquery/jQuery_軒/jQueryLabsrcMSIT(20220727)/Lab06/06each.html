@@ -18,8 +18,8 @@
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script>
         $("#btn1").click(function(){                             
-            $("li").each(function(index,element){
-                                                            
+            $("li").each(function (index, element) {
+                $("#demo").append(`<li>${$(this).text()}</li>`)                                           
             });                  
         });
     </script>

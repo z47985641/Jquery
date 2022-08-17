@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <title>08jQueryeach.html</title>
+</head>
+<body>
+    <div id="msg"></div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+   <script>
+       let ary=["item1", "item2", "item3"];
+        $.each(ary,function(index,value){
+            //console.log(index+":"+value);
+        });
+
+        
+    
+
+        var data = {"emps":[
+                      {"name":"Tom","workYears":3,"salary":35000},
+                      {"name":"Jack","workYears":5,"salary":40000},
+                      {"name":"Mary","workYears":7,"salary":45000}
+                   ]};
+
+       $.each(data, function (index, value) {
+           //console.log(value);
+           $.each(value, function (index, value) {
+               //console.log(value);
+               //console.log(value.name);
+               $("#msg").append(`<li>${value.name},${value.workYears},${value.salary}</li>`)
+           })           
+       })
+
+       //$.each(data, function (index, value1) {
+       //    //console.log(value1);
+       //    $.each(value1, function (index, value2) {
+       //        //console.log(value2);
+       //        //console.log(value2.name);
+       //        $("#msg").append(`<li>${value2.name},${value2.workYears},${value2.salary}</li>`)
+       //    })
+       //})
+   </script> 
+</body>
+</html>

@@ -49,6 +49,12 @@
         //change
         $("#idSel").change(function(){
             console.log("change");
+            let i = $("select option:selected").index();
+            let v = $(this).val();
+            let t = $(this).text();
+            $("#demo").text(i+v+t);
+
+            let v =
             //讀取option的值
             
                     

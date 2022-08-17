@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8">
+    <title>05hover.html</title>
+</head>
+<body>
+    <img id="img1" class="i" src="images/star.gif" />
+    <img id="img1" class="i" src="images/star.gif" />
+    <img id="img1" class="i" src="images/star.gif" />
+    <img id="img1" class="i" src="images/star.gif" />
+    <img id="img1" class="i" src="images/star.gif" />
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>
+        $("img").hover(function () {
+            $(this).prop("src", "images/chngstar.gif");
+        }, function () {
+            $(this).prop("src", "images/star.gif");
+        })
+    </script>
+</body>  
+</html>
