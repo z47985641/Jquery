@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 public partial class MSITJSLab_Lab07_get : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
+    protected void Page_Load1(object sender, EventArgs e)
     {
         //string str = Request.QueryString["txtName"];
         //string str = Request.Form["txtName"];        
