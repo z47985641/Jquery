@@ -594,9 +594,6 @@
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\Lab10\UI\jquery-ui-1.13.2.custom\package.json" />
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\otherShared\jQuery作業.pdf" />
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\otherShared\slide補充說明.docx" />
-    <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\TeacherJQWeb\Lab04\get.jsp" />
-    <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\TeacherJQWeb\Lab10\jquery-ui-1.13.2.custom\package.json" />
-    <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\TeacherJQWeb\Lab10\UI\jquery-ui-1.13.2.custom\package.json" />
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\css\fontawesome-free-6.1.2-web\webfonts\fa-brands-400.ttf" />
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\css\fontawesome-free-6.1.2-web\webfonts\fa-brands-400.woff2" />
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\css\fontawesome-free-6.1.2-web\webfonts\fa-regular-400.ttf" />
@@ -606,6 +603,9 @@
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\css\fontawesome-free-6.1.2-web\webfonts\fa-v4compatibility.ttf" />
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\css\fontawesome-free-6.1.2-web\webfonts\fa-v4compatibility.woff2" />
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\css\themes\flora\i\Thumbs.db" />
+    <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\TeacherJQWeb\Lab04\get.jsp" />
+    <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\TeacherJQWeb\Lab10\jquery-ui-1.13.2.custom\package.json" />
+    <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\teacher\TeacherJQWeb\Lab10\UI\jquery-ui-1.13.2.custom\package.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -614,6 +614,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
