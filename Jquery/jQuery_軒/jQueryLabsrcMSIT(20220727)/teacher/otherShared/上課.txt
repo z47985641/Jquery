@@ -1,0 +1,161 @@
+JavaScript Library 程式庫 函數庫 函式庫
+function 函數集合(方法集合 object.method())  jQuery(selector).method()
+呼叫函數 函數名稱() ->
+第4代語言
+1. 物件
+2. 事件驅動 event handler 程式處理程序 function
+
+JavaScript 控制(操作)對象是物件，元素 object element
+jQuery 控制(操作)對象是selector(選取器，選擇器)
+
+CSS
+selector{
+1.type
+2.class
+3.id
+}
+
+<h1 id="h">this is heading1 </h1>
+<script>
+//取得物件
+let JSObj=document.getElementById("h");  //元素
+let JSObj=document.querySelector("h1");
+let JSObj=document.querySelector("#h");
+let JSObj=document.querySelectorAll("h1");  //多個物件(元素) NodeList
+let JSObj=document.querySelectorAll("h1")[0];
+//取得物件的內容
+let JSObjVal=JSObj.innerHTML;  //解譯標籤
+console.log(JSObjVal);
+let JSObjVal=JSObj.innerText;  //IE8 視為純文字
+console.log(JSObjVal);
+let JSObjVal=JSObj.textContent;  //Firefox
+console.log(JSObjVal);
+
+
+//取得物件
+//呼叫jQuery
+//jQuery 語法  jQuery(selector).action()  method()
+//$(selector).action()
+let JQObj=jQuery("h1");  //多個物件(元素) jQuery物件
+let JQObj=jQuery("#h");
+
+//取得物件的內容
+let JQObjVal=JQObj.html();
+let JQObjVal=JQObj.text();
+
+//JavaScript 事件
+//1. HTML屬性事件處理程序
+<h1 id="h" onclick="f1()">this is heading1 </h1>
+//2. JavaScript屬性事件處理程序
+JSObj.onclick=f2;  //binding 
+
+//3. w3c DOM 事件處理程序
+JSObj.addEventListener("click",f3);
+
+
+//jQuery 事件
+//1. x
+//2.
+JQObj.click(f1);
+//3. 不支援
+</script>
+
+Asynchronous JavaScript and XML 非同步傳輸
+XML(extensible Markup Language)資料儲存
+JSON
+
+jQueryUI官網
+jQuery PlugIn 外掛 個人 企業 
+
+
+//p8
+<h1 style="color:red"
+
+window.onload=init;
+document.addEventListener("DOMContentLoaded",init);
+
+物件
+1. window
+2. document
+3. this
+
+//chain
+<h1>xxx</h1>
+JS object.property
+object.style.color  ->object.property.property
+object.method().property.method()
+
+//$(selector).action()
+
+$(selector).action().action()
+$(selector).action()
+
+this指的是 函數宣告和匿名函數 
+this是 binding 的物件(元素) 使用 呼叫 函數
+
+箭頭函數(ES6) this 指的是所宣告所在的物件
+
+//
+<input type="checkbox" checked="checked">
+<input type="radio" checked="checked">
+<select>
+<option selected="selected">
+</select>
+
+成對標籤
+<p>content</p>
+<div>content</div>
+
+<img src=>
+<input value="abc" >
+所有的單一標籤都沒有內容 :empty
+
+$("h1").click(function(){..});
+
+<h1>content</h1>
+
+1.aaaa
+2.bbb
+
+aaaa bbbb
+
+<p>content</p>
+<input value="xxx"
+
+$("selector").off("hover")
+mouseenter,mouseleave
+
+<h1 style="color:red" class="..."
+CSS box
+
+
+$(selector).action()
+$("<b>appendTo</b>").appendTo(".inner");
+$("appendTo").appendTo(".inner");
+
+8/19 下午 1:30 考JavaScript 及 jQuery
+8/22 交JavaScript 及 jQuery 作業
+
+console.log("docHeight="+docHeight);
+console.log("windowHeight="+windowHeight);
+
+console.log(this);
+
+jQuery 參考網址
+https://api.jquery.com/
+https://www.w3schools.com/
+https://www.w3.org/TR/selectors-3/#selectors
+https://getbootstrap.com/
+https://fontawesome.com/
+https://www.bondlink.com.tw/webdesign/market-show.asp?id=270
+https://edwardzou.blogspot.com/2017/09/fixMenu.html
+https://api.jqueryui.com/easings/
+
+//jQuery PlugIn
+https://lokeshdhakar.com/projects/lightbox2/
+https://datatables.net/
+https://www.highcharts.com/demo
+
+jQuery UI 
+
+

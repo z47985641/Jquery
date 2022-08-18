@@ -31,6 +31,19 @@
 
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script>
+        let Wh = $(window).height();
+        let Ph = $("body").height();
+        let STop;
+        let Sp;
+        $(window).scroll(function () {
+            STop = $(this).scrollTop();
+            Sp = Math.round(STop / (Ph - Wh) * 100) + "%";
+            $("#read_progress_bar").width(Sp);
+            console.log("Wh" + Wh);
+            console.log("Ph" + Ph);
+            console.log("STop" + Math.round(STop));
+            console.log("Sp" + Sp);
+        })
 
 
     </script>

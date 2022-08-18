@@ -32,11 +32,15 @@
         $("#idbox").hover(enter,leave);
 
         function enter(){
-            $('#idbox').addClass("active");                               
+            //$('#idbox').addClass("active");
+            //$('#idbox').removeClass("box").addClass("active");  
+            $('#idbox').addClass("active");
         }  
 
         function leave(){
-            $('#idbox').addClass("box");                           
+            //$('#idbox').addClass("box");             
+            //$('#idbox').removeClass("active").addClass("box");  
+            $('#idbox').removeClass("active");
         }           
     </script>
 </body>
