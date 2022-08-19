@@ -37,8 +37,9 @@
     </div>
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script>            
-        $(".btn").click(function(){
-                        
+        $(".btn").click(function () {
+            let size = $(this).data("size");
+            $("html").removeClass().addClass(size);
         });
     </script>
 </body>

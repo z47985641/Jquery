@@ -34,7 +34,11 @@
     <script>
         $("#has").click(function(){ 
             //找出class為color的選擇器中，含有has的類別,新增bd類別              
-                
+            $(".color").each(function (){
+                if($(this).hasClass("has")){
+                    $(this).addClass("bd");
+            }
+            });
         });
     </script>
 

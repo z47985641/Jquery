@@ -107,10 +107,18 @@
     <script>
         //offset() ：讀取指定元素在頁面(文件)上的相對坐標，
         //回傳含有top及left屬性的物件                  
+        let navPosition = $("#navbar").offset().top;
 
-        $(window).scroll(function(){
-                        
+        $(window).scroll(function () {
+            let srollTop = $(this).scrollTop();
+            if (srollTop > navPosition)
+                $("#navbar").addClass("fixed_nav")
+            else
+                $("#navbar").removeClass("fixed_nav")
         });
+        $("#top").click(function () {
+            $(window).scrollTop(0);
+        })
     </script>
 </body>
 </html>

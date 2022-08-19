@@ -47,9 +47,9 @@
       </div>
       <script src="../js/jquery-3.6.0.min.js"></script>
       <script>
-        $("figure").click(function(){
-
-            
+          $("figure").click(function () {
+              $(this).addClass("active").siblings().removeClass("active");
+              $("#mainPic").attr("src", $(this).find("img").prop("src"));
         });
     </script>
   </body>
