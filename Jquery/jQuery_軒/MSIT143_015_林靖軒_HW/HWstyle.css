@@ -1,0 +1,53 @@
+﻿#mainDiv {
+    background-color: antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 50px;
+    width: 1200px;
+    height: 150px;
+    margin: auto;
+    padding: 30px;
+}
+#Dmain {
+    background-color: azure;
+    border: 2px solid azure;
+    width: 450px;
+    height: 50px;
+    margin: 50px 0px 0px 373px;
+    padding: 0px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 36px;
+}
+
+#D01 {
+    background-color: azure;
+    border: 2px solid azure;
+    width: 450px;
+    height: 50px;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+#DDD1 {
+    background-color: azure;
+    width: 50px;
+    height: 50px;
+    margin: 50px 0px 0px 373px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+
+#DDD {
+    background-color: azure;
+    width: 50px;
+    height: 50px;
+    margin: 50px 0px 0px 83px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}

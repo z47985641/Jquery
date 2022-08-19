@@ -67,6 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\HW01.html" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\HW02.html" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\HW03.html" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\HW04.html" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\HWmain.html" />
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\css\fontawesome-free-6.1.2-web\css\all.css" />
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\css\fontawesome-free-6.1.2-web\css\all.min.css" />
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\css\fontawesome-free-6.1.2-web\css\brands.css" />
@@ -302,6 +307,28 @@
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\附錄二\01lightbox.html" />
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\附錄二\02datatable.html" />
     <Content Include="jQuery_軒\jQueryLabsrcMSIT%2820220727%29\附錄二\css\lightbox.css" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\HWstyle.js" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\HWstyle.css" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\01.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\02.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\back-arrow.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\cancel.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\fail.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\forward.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\img1.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\img2.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\img3.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\img4.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\img5.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\img6.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\right.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\image\star.png" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\js\jquery-3.6.0.js" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\js\jquery-3.6.0.min.js" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\js\jquery-ui.js" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\js\jquery.color-2.2.0.min.js" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\js\jquery.easing.js" />
+    <Content Include="jQuery_軒\MSIT143_015_林靖軒_HW\js\lightbox.js" />
     <Content Include="jQuery_軒\otherShared\JSMSITHWShortURL.txt" />
     <Content Include="jQuery_軒\otherShared\JSMSITShortURL.txt" />
     <Content Include="jQuery_軒\otherShared\taiwan_districts.js" />

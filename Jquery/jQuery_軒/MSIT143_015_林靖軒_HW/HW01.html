@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="HWstyle.css" rel="stylesheet" />
+<style>
+    div {
+        width: 700px;
+        margin: auto;
+        padding: 0px;
+    }
+
+    #image01 {
+        padding: 0px 0px 0px 35px;
+    }
+
+    img {
+        float: left;
+        padding: 0px;
+        margin: 0px;
+    }
+    p {
+        text-align: center;
+    }
+</style>
+</head>
+
+<body>
+    <div id="mainDiv">
+        <p id="D01">MSIT143 015 林靖軒</p>
+        <a href="HWmain.html"><div id="Dmain">Main</div></a>
+    </div>
+    <div id="divStar">
+        <p>點擊星星可以評論</p>
+        <p id="pText">目前的評分為 :　  0顆星</p>
+
+        <div>
+            <img title="1" id="image01" src="image/01.png" />
+            <img title="2" id="image02" src="image/01.png" />
+            <img title="3" id="image03" src="image/01.png" />
+            <img title="4" id="image04" src="image/01.png" />
+            <img title="5" id="image05" src="image/01.png" />
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <!--<script src="js/jquery-3.6.0.min.js"></script>-->
+    <script>
+        $("img").on({
+            mouseenter: function () {
+                $(this).nextAll().attr("src", "image/01.png")
+                    .end().prevAll().attr("src", "image/02.png")
+                    .end().attr("src", "image/02.png");
+                $("#divStar>#pText").html(`目前的評分為 :　  ${$(this).attr("title")}顆星`);
+            },
+            mouseout: function () {
+                $("img").attr("src", "image/01.png");
+                $("#divStar>#pText").html(`目前的評分為 :　  0顆星`);
+
+            },
+            click: function () {
+                console.log($("#divStar>#pText").html());
+                $("#divStar>#pText").html(`您給的評分為 :　  ${$(this).attr("title")}顆星`);
+                $("img").off("mouseenter");
+                $("img").off("mouseout");
+                $("img").off("click");
+            },
+        });
+    </script>
+</body>
+</html>
